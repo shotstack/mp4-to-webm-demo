@@ -1,8 +1,7 @@
-var apiUrl = "http://localhost:3000/demo/"; // 'https://39i73ay1s7.execute-api.ap-southeast-2.amazonaws.com/demo/';
+var apiUrl = "http://localhost:3000/demo/"; // 'https://hajw55amz3.execute-api.ap-southeast-2.amazonaws.com//demo/';
 var apiEndpoint = apiUrl + "shotstack";
 var urlEndpoint = apiUrl + "upload/sign";
-var s3Bucket =
-  "https://shotstack-demo-storage.s3-ap-southeast-2.amazonaws.com/";
+var s3Bucket = "https://shotstack-demo-storage.s3-ap-southeast-2.amazonaws.com/";
 var progress = 0;
 var progressIncrement = 10;
 var pollIntervalSeconds = 10;

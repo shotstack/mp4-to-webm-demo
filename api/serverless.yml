@@ -1,4 +1,4 @@
-service: demo-mp4-mov-shotstack
+service: demo-mp4-webm-shotstack
 useDotenv: true
 
 provider:
@@ -33,7 +33,7 @@ package:
 functions:
   shotstack:
     handler: src/handler/shotstack/handler.submit
-    description: Demo - Convert mp4 to mov
+    description: Demo - Convert mp4 to webm
     timeout: 15
     memorySize: 128
     events:
@@ -43,7 +43,7 @@ functions:
           cors: true
   status:
     handler: src/handler/shotstack/handler.status
-    description: Demo - Convert mp4 to mov status check
+    description: Demo - Convert mp4 to webm status check
     timeout: 10
     memorySize: 128
     events:
